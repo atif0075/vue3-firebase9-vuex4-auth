@@ -2,7 +2,7 @@
 
 Simple, opinionated, **fully typed**, and **production-ready** project template for Vite.
 
-![Editor screenshot](src/assets/editor_screenshot.png)
+![Editor screenshot](https://www.awesomescreenshot.com/image/23226406?key=15167b24c32711fc42b58548ef02053d)
 
 This template is **practical** and **batteries included** but not overly complex or bloated. Also explicit configuration over magic; it should be easy to understand how everything works, strip out anything you don't need, and fast to modify things to your needs.
 
