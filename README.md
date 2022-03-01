@@ -2,7 +2,7 @@
 
 Simple, opinionated, **fully typed**, and **production-ready** project template for Vite.
 
-![Editor screenshot](https://www.awesomescreenshot.com/image/23226406?key=15167b24c32711fc42b58548ef02053d)
+![Editor screenshot](https://awesomescreenshot.s3.amazonaws.com/image/2101513/23226406-5ec690fb4c5aa619301a31f0ffcbc28e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220301%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220301T164627Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=b65fd6245b08d656a313a2d6c386fb2f2375de378911fde919b7394575cbf50b)
 
 This template is **practical** and **batteries included** but not overly complex or bloated. Also explicit configuration over magic; it should be easy to understand how everything works, strip out anything you don't need, and fast to modify things to your needs.
 
