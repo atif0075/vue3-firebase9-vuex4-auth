@@ -14,6 +14,7 @@ export const store = createStore({
     user: null,
     isReady: false,
     score: 0,
+    load: false,
     name: '',
     email: '',
     scores: [],
@@ -30,10 +31,12 @@ export const store = createStore({
       });
     },
     async setScore() {
+      store.state.load = true
       let mail = store.state.user.email
       await setDoc(doc(db, "Users", mail), {
         score: store.state.score
       }, { merge: true });
+      store.state.load = false
     },
 
 

@@ -17,8 +17,19 @@
                 <button @click="store.commit('less', 1)" class="butn mx-3">Decrease</button>
                 <button @click="store.commit('reset', 0)" class="butn mx-3">Reset</button>
             </div>
+
             <div>
-                <button @click="store.dispatch('setScore')" class="butn bg-red">Upload score</button>
+                <button
+                    @click="store.dispatch('setScore')"
+                    class="butn flex justify-between items-center bg-red"
+                >
+                    Upload score
+                    <img
+                        v-show="store.state.load"
+                        src="../assets/puffWhite.svg"
+                        class="w-6 mx-1"
+                    />
+                </button>
             </div>
         </main>
     </section>
